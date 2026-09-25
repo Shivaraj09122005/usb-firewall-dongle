@@ -1,0 +1,20 @@
+#ifndef TUSB_CONFIG_H_
+#define TUSB_CONFIG_H_
+
+#define CFG_TUSB_MCU OPT_MCU_RP2040
+
+#define CFG_TUSB_RHPORT0_MODE (OPT_MODE_HOST | OPT_MODE_FULL_SPEED)
+
+#define CFG_TUH_ENABLED 1
+
+#define CFG_TUH_HID 1
+#define CFG_TUH_CDC 0
+#define CFG_TUH_MSC 0
+#define CFG_TUH_MIDI 0
+
+#define CFG_TUH_HUB 0
+
+#define CFG_TUH_ENUMERATION_BUFSIZE 256
+
+#endif
+

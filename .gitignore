@@ -1,0 +1,20 @@
+# Build directories
+**/build/
+
+# VS Code local configuration
+.vscode/
+**/.vscode/
+
+# Generated firmware files
+*.elf
+*.elf.map
+*.bin
+*.hex
+*.uf2
+*.dis
+
+# CMake generated files
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
